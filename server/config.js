@@ -6,6 +6,6 @@ AWS.config.update({
   secretAccessKey: process.env.TRAVELPROJECT_SECRETKEY,
 });
 
-const ddb = new AWS.DynamoDB.DocumentClient();
+const ddb = new AWS.DynamoDB();
 
 module.exports = ddb;

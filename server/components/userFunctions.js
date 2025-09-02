@@ -1,7 +1,7 @@
-const ddb = require("../config"); 
+const ddb = require("../config");
 
-const putItem = async (req, res) => {
-   
+const getLocation = async (req, res) => {
+    
 };
 
-module.exports = { putItem };
+module.exports = { getLocation };
