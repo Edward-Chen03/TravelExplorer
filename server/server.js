@@ -2,7 +2,7 @@ var AWS = require('aws-sdk');
 const cors = require('cors');
 const express = require('express')
 const app = express();
-const routes = require('./components/routes');
+const routes = require('./utils/routes');
 app.use(cors());
 app.use(express.json());
 
